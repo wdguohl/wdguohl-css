@@ -15,8 +15,9 @@
 			border-left:150px solid black;
 			border-radius: 50%;
 			position: relative;
-			
-		
+			-webkit-animation:taiji 2s;
+			-webkit-animation-iteration-count:infinite;
+			-webkit-animation-timing-function:linear;
 		}
 		.box:before{
 			content: " ";
@@ -40,11 +41,6 @@
 			background-color: black;
 			top: 150px;
 			left: -75px;
-		}
-		.box:hover{
-			-webkit-animation:taiji 2s;
-			-webkit-animation-iteration-count:infinite;
-			-webkit-animation-timing-function:linear;v
 		}
 		@keyframes taiji
 				{
